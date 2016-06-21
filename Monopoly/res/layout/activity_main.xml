@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/img_num"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/num"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="468dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_num"
+        android:text="开始" 
+        android:layout_marginLeft="440dp"/>
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_num"
+        android:layout_toRightOf="@+id/btn"
+        android:text="停止" />
+
+    <ImageView 
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/n2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/n4"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/user"
+        />
+    <TextView 
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="text"
+        />
+
+</RelativeLayout>
